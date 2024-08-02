@@ -1,0 +1,41 @@
+body {
+    background-color: #808080;
+}
+
+.hero {
+    background: url('../images/net.jpeg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    padding: 5rem 0;
+    position: relative;
+}
+
+.hero h1 {
+    color: #000000;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.card {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+    height: 180px;
+    object-fit: cover;
+}
+
+.add-category-btn {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    margin-right: -180px;
+    width: 200px;
+    background-color: #000000;
+    border-color: #ff0000;
+}
